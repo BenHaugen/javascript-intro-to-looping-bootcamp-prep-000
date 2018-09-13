@@ -20,13 +20,13 @@ function whileLoop(num) {
   return "done"
 }
 
-function doWhileLoop(array) {
-  
-  var i = 5;
-  function incrementVariable() {
-  do {
-  }
-    while (array.length > 0 && incrementVariable())
-  
-  return array
+function maybeTrue() {
+  return Math.random() >= 0.5
 }
+ function doWhileLoop(array) {
+  do {
+    array.pop();
+  }
+  while (array.length > 0 && maybeTrue());
+  return array;
+ }
