@@ -21,5 +21,9 @@ function whileLoop(num) {
 }
 
 function doWhileLoop(array) {
-  
+  do {
+    
+    while (array.length > 0 && incrementVariable())
+  }
+  return array
 }
