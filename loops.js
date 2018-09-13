@@ -5,7 +5,7 @@ function forLoop(array) {
   }
   }  
   
-  return "I am ${i} strange loops."
+  return `I am ${i} strange loops.`
 }
 
 function whileLoop(num) {
