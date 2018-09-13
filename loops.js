@@ -21,9 +21,12 @@ function whileLoop(num) {
 }
 
 function doWhileLoop(array) {
+  
+  var i = 5;
+  function incrementVariable() {
   do {
-    
-    while (array.length > 0 && incrementVariable())
   }
+    while (array.length > 0 && incrementVariable())
+  
   return array
 }
