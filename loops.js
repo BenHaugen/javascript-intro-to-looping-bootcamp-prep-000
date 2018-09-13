@@ -6,5 +6,14 @@ function forLoop(array) {
   }  
   
   return "I am ${i} strange loops."
+}
 
+function whileLoop(num) {
+  let countdown = num;
+  
+  while (countdown > 0) {
+    console.log(--countdown)
+  }
+  
+  return "done"
 }
